@@ -13,7 +13,7 @@ const images = [
   },
 ];
 
-const galleryList = document.querySelector('.gallery');
+const galleryList = document.querySelector('.js-gallery');
 
 const galleryItems = images.map(image => {
   return `

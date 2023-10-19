@@ -1,5 +1,5 @@
-const nameInput = document.getElementById('name-input');
-const nameOutput = document.getElementById('name-output');
+const nameInput = document.getElementById('js-name-input');
+const nameOutput = document.getElementById('js-name-output');
 
 nameInput.addEventListener('input', () => {
   if (nameInput.value.trim() === '') {
